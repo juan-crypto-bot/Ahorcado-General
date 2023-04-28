@@ -1,0 +1,15 @@
+C:\Diveria\Ahorcado-General\bin\Debug\net7.0\Ahorcado-General.exe
+C:\Diveria\Ahorcado-General\bin\Debug\net7.0\Ahorcado-General.deps.json
+C:\Diveria\Ahorcado-General\bin\Debug\net7.0\Ahorcado-General.runtimeconfig.json
+C:\Diveria\Ahorcado-General\bin\Debug\net7.0\Ahorcado-General.dll
+C:\Diveria\Ahorcado-General\bin\Debug\net7.0\Ahorcado-General.pdb
+C:\Diveria\Ahorcado-General\obj\Debug\net7.0\Ahorcado-General.csproj.AssemblyReference.cache
+C:\Diveria\Ahorcado-General\obj\Debug\net7.0\Ahorcado-General.GeneratedMSBuildEditorConfig.editorconfig
+C:\Diveria\Ahorcado-General\obj\Debug\net7.0\Ahorcado-General.AssemblyInfoInputs.cache
+C:\Diveria\Ahorcado-General\obj\Debug\net7.0\Ahorcado-General.AssemblyInfo.cs
+C:\Diveria\Ahorcado-General\obj\Debug\net7.0\Ahorcado-General.csproj.CoreCompileInputs.cache
+C:\Diveria\Ahorcado-General\obj\Debug\net7.0\Ahorcado-General.dll
+C:\Diveria\Ahorcado-General\obj\Debug\net7.0\refint\Ahorcado-General.dll
+C:\Diveria\Ahorcado-General\obj\Debug\net7.0\Ahorcado-General.pdb
+C:\Diveria\Ahorcado-General\obj\Debug\net7.0\Ahorcado-General.genruntimeconfig.cache
+C:\Diveria\Ahorcado-General\obj\Debug\net7.0\ref\Ahorcado-General.dll
