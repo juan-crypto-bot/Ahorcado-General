@@ -11,21 +11,19 @@ internal class Word
     }
     internal bool isWinner()
     {
-       int i=0;
-       while (!this._word[i++].isHidden()) ;
-       return !this._word[i].isHidden();
+        int i = 0;
+        while (i < this._word.Length - 1 && !this._word[i].isHidden()) i++;
+        return !this._word[i].isHidden();
     }
 
-    internal bool ContainsLetter(Letter letter)
+    internal bool ContainsLetter(char letter)
     {
         int i = 0;
-        do{
-            i++;
-        }while (!this._word[i].isEqual(letter)) ;
+        while (i < this._word.Length - 1 && !this._word[i].isEqual(letter)) i++;
         return this._word[i].isEqual(letter);
     }
 
-    internal void Discovery(Letter letter)
+    internal void Discovery(char letter)
     {
         for (int i = 0; i < this._word.Length; i++)
             if (this._word[i].isEqual(letter))

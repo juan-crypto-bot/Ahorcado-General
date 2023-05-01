@@ -8,16 +8,15 @@ internal class Hanged
     internal void Play()
     {
         Word word = new ThinkingPlayer().SelectWord();
-        for(int i=0; i<word._word.Length; i++){
-            Console.WriteLine(word._word[i]._v);
-        }
         Hang hang = new Hang();
         GuessingPlayer guessingPlayer = new GuessingPlayer();
         do
         {
+            Console.Clear();
             hang.Display();
             word.Display();
-            Letter letter = guessingPlayer.GetLetter();
+            guessingPlayer.DisplayAttempts();
+            char letter = guessingPlayer.GetLetter();
             if (word.ContainsLetter(letter))
             {
                 word.Discovery(letter);
@@ -26,13 +25,16 @@ internal class Hanged
             {
                 hang.DecreaseLife();
             }
-        } while (!hang.isLoser() || !word.isWinner());
+        } while (!hang.isLoser() && !word.isWinner());
+        Console.Clear();
         if (word.isWinner())
         {
             Console.WriteLine("Ganaste!");
         }
         else
         {
+            hang.Display();
+            word.Display();
             Console.WriteLine("Perdiste :(");
         }
     }

@@ -6,7 +6,7 @@ internal class Letter
     public Letter(char v)
     {
         this._v = v;
-        this._hidden=true;
+        this._hidden = true;
     }
 
     internal void Discovery()
@@ -16,19 +16,18 @@ internal class Letter
 
     internal void Display()
     {
-         if(this._hidden == true) Console.Write("_");
+        if (this._hidden == true) Console.Write("_");
         else Console.Write(this._v);
     }
 
-    internal bool isEqual(Letter letter)
+    internal bool isEqual(char letter)
     {
-        if(this._v == letter._v) return true;
-        else return false;
+
+        return (this._v == letter);
     }
 
     internal bool isHidden()
     {
-        if(this._hidden == true) return true;
-        else return false;
+        return this._hidden == true;
     }
 }
